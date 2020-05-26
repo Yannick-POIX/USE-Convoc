@@ -1,1 +1,1 @@
-test git distant test
+test git distant
