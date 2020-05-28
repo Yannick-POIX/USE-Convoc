@@ -1,0 +1,6 @@
+Array ( [0] => 
+                Array ( [0] => id [1] => Nom [2] => Prenom [3] => Licence ) 
+                        [1] => Array ( [0] => 1 [1] => Puhetini [2] => Maxence [3] => 1 123 456 789 ) 
+                        [2] => Array ( [0] => 2 [1] => Totito [2] => Toto [3] => 1 123 456 780 ) )
+
+Array ( [0] => 1 [1] => Puhetini [2] => Maxence [3] => 0 123 456 789 ) Array ( [0] => 2 [1] => Totito [2] => Toto [3] => 1 123 456 780 )                        
