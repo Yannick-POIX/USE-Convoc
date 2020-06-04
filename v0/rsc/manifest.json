@@ -1,0 +1,22 @@
+{
+    "name": "US-ESQUELBEC",
+    "short_name": "U.S-E",
+    "lang": "fr-FR",
+    "start_url": "stage.local/v0/HTML/hello-list.html",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#11327F",
+    "icons": [
+      {
+        "src": "apple-icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "favicon.ico",
+        "sizes": "16x16",
+        "type": "image/ico"
+      }
+    ],
+    "background_color": "#0f0f0f"
+  }

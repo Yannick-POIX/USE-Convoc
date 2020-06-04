@@ -1,0 +1,157 @@
+/****************************************************/
+/* ***** import ***** */
+/* importation des fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+
+
+/* ********************** */
+/* ******** root ******** */
+:root
+{
+    --header-background-color: #171717;
+    --body-background-color:   #0f0f0f;
+    --white:                   #ffffff;
+    --light0:                  #AEE8FE;
+    --light1:                  #1A4FC9;
+    --dark:                    #11327F;
+    --red:                     #B00815;
+}
+
+/* ******** general ******* */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;  
+}
+
+html{
+    background-color: var(--body-background-color);
+}
+
+div, header, nav{
+    display: flex;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* ****** header ****** */
+header{
+    background-color: var(--header-background-color);
+    justify-content: flex-end;
+}
+
+#width-limit {
+    max-width: 55%;
+}
+
+#topbar{
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 75px;
+}
+
+.cat{
+    justify-content: center;
+}
+
+.cat a{
+    color: white;
+    font-size: 1.1em;
+}
+
+/* ****** content ****** */
+#container{
+    flex-direction: column;
+    background-color: var(--body-background-color);
+    min-height: 100vh;
+    padding: 2% 32% ;
+}
+
+/* ******** list ******* */
+#list{
+    flex-direction: column;
+    border: solid var(--light) 1px;
+}
+
+.line{
+    justify-content: center;
+    max-height: 7vh;
+    border: 1px solid var(--light0);
+}
+
+.light{
+    background-color: var(--light1);
+}
+
+.block{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headList{
+    background-color: var(--dark);
+}
+
+.contentList{
+    background-color: var(--light1);
+}
+
+
+
+
+
+/* ***** MEDIA QUERIES ***** */
+/* *****    iPhone X   ***** */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        #container{
+            padding: 5% 2%;
+        }
+        #topbar{
+            height: 40px;
+        }
+        .cat a{
+            color: white;
+            font-size: 0.3em;
+        }
+        .line{
+            max-height: fit-content;
+            width: 100%;
+        }
+        .block{
+            font-size: 0.7em;
+        }        
+
+    }
+/* ***** iPhone 11 / Xr ***** */
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        #container{
+            padding: 5% 2%;
+        }
+        #topbar{
+            height: 40px;
+        }
+        .cat a{
+            color: white;
+            font-size: 0.3em;
+        }
+        .line{
+            max-height: fit-content;
+            width: 100%;
+        }
+        .block{
+            font-size: 0.7em;
+        }        
+
+    }
